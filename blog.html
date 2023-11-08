@@ -14,41 +14,43 @@
 </head>
 
 <body>
-    <header class="header w-full flex justify-between md:px-[190px] bg-white shadow-xl fixed p-4">
-        <a href="#home.html" class="logo text-green-400 font-bold text-4xl"><i class="text-3xl font-bold text-green-600 ri-apple-fill"></i>Fruit.Hub</a>
+    <header class="header w-full flex justify-between md:px-[186px] bg-white shadow-xl fixed p-4">
+        <a href="/" class="logo text-green-600 font-bold text-4xl"><i class="text-3xl font-bold text-red-600 ri-apple-fill"></i>Fresh Zilla</a>
         <div class="menu md:flex">
-            <ul class="navbar md:flex md:ml-[150px] gap-5 text-center text-green-500 mt-2">
-                <li class="hover:text-red-600 rounded hover:scale-105 duration-300 active"><a href="/">home</a></li>
-                <li class="hover:text-red-600 rounded hover:scale-105 duration-300"><a href="about.html">about</a></li>
-                <li class="hover:text-red-600 rounded hover:scale-105 duration-300"><a href="services.html">services</a></li>
-                <li class="hover:text-red-600 rounded hover:scale-105 duration-300"><a href="blog.html">blogs</a></li>
-                <li class="hover:text-red-600 rounded hover:scale-105 duration-300"><a href="gallery.html">gallery</a></li>
-                <li class="hover:text-red-600 rounded hover:scale-105 duration-300"><a href="contact.html">contact</a></li>
+            <ul class="navbar md:flex md:ml-[150px] gap-5 text-center text-green-600 mt-2">
+                <li class="hover:text-red-600 hover:scale-105 duration-300 active"><a href="index.html">home</a></li>
+                <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="about.html">about</a></li>
+                <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="services.html">services</a></li>
+                <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="blog.html">blogs</a></li>
+                <!-- <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="gallery.html">gallery</a></li> -->
+                <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="contact.html">contact</a></li>
             </ul>
             <div class="user">
                 <div class="user1 flex justify-between">
                     <form action="" class="search-form pl-3 pr-3 flex bg-white rounded shadow">
-                        <input type="search" placeholder="search here..." id="search-box" class=" pr-3 bg-none outline-none w-[300px] p-2">
+                        <input type="search" placeholder="search here..." id="search-box" class=" pr-3 bg-none outline-none w-[250px] p-2">
                         <button class="search" onclick="ok();"><i class="ri-search-line text-black text-xl"></i></button>
                     </form>
-                    <a href="user.html"><i class="ri-user-line bg-none text-green-400 text-2xl mx-2"></i></a></div>
+                    <a href="login.html" class="bg-green-600 mx-1 text-white text-center p-2 rounded">User</a>
+                    <a href="shoping-cart.html" class="bg-red-600 mx-1 text-white text-center p-2 rounded">Card</a>
+                </div>
             </div>
         </div>
-        <div class="main md:hidden ml-[-100px]">
+        <div class="main md:hidden">
             <i class="ri-menu-line font-bold text-3xl"></i>
         </div>
     </header>
-    <div class="fixed h-[50px] mt-[730px] shadow-2xl animate-bounce w-[50px] ml-[95%] ">
+    <div class="fixed h-[50px] mt-[670px] shadow-2xl animate-bounce w-[50px] ml-[93%] ">
         <a href="./blog.html"><i class="ri-arrow-up-s-line text-3xl font-bold text-white  bg-green-800 text-center rounded-full p-3"></i></a>
     </div>
     <section class="py-[100px] md:px-[180px] bg-gray-100 p-3">
-        <h1 class="nd:text-center text-5xl font-bold">Our Latest Blog</h1>
+        <h1 class="text-center text-5xl font-bold">Our Latest Blog</h1>
         <div class="grid md:grid-cols-3 gap-5 my-5">
-            <div class="w-[420px] p-7 bg-white">
+            <div class="w-[380px] p-5 bg-white">
                 <h2 class="text-2xl text-gray-500 font-bold">21st October</h2>
                 <p class="text-2xl font-bold my-3"><a href="blog1">The 12 Fastest Vegetables to Grow in your Garden</a></p>
-                <div>
-                    <a href="single-blog"><img src="./images/blog0.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-105"></a>
+                <div class="overflow-hidden">
+                    <a href="single-blog"><img src="./images/blog0.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-150"></a>
                 </div>
                 <div class="flex justify-between my-4">
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-user-fill text-green-600 pr-2"></i>Admin</a>
@@ -56,11 +58,11 @@
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-chat-1-line text-green-600 pr-2"></i>9 Comment</a>
                 </div>
             </div>
-            <div class="w-[420px] p-7 bg-white">
+            <div class="w-[380px] p-5 bg-white">
                 <h2 class="text-2xl text-gray-500 font-bold">21st October</h2>
                 <p class="text-2xl font-bold my-3"><a href="blog1">The 12 Fastest Vegetables to Grow in your Garden</a></p>
-                <div>
-                    <a href="single-blog"><img src="./images/blog2.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-105"></a>
+                <div class="overflow-hidden">
+                    <a href="single-blog"><img src="./images/blog2.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-150"></a>
                 </div>
                 <div class="flex justify-between my-4">
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-user-fill text-green-600 pr-2"></i>Admin</a>
@@ -68,11 +70,11 @@
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-chat-1-line text-green-600 pr-2"></i>9 Comment</a>
                 </div>
             </div>
-            <div class="w-[420px] p-7 bg-white">
+            <div class="w-[380px] p-5 bg-white">
                 <h2 class="text-2xl text-gray-500 font-bold">21st October</h2>
                 <p class="text-2xl font-bold my-3"><a href="blog1">The 12 Fastest Vegetables to Grow in your Garden</a></p>
-                <div>
-                    <a href="single-blog"><img src="./images/blog3.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-105"></a>
+                <div class="overflow-hidden">
+                    <a href="single-blog"><img src="./images/blog3.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-150"></a>
                 </div>
                 <div class="flex justify-between my-4">
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-user-fill text-green-600 pr-2"></i>Admin</a>
@@ -80,11 +82,11 @@
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-chat-1-line text-green-600 pr-2"></i>9 Comment</a>
                 </div>
             </div>
-            <div class="w-[420px] p-7 bg-white">
+            <div class="w-[380px] p-5 bg-white">
                 <h2 class="text-2xl text-gray-500 font-bold">21st October</h2>
                 <p class="text-2xl font-bold my-3"><a href="blog1">The 12 Fastest Vegetables to Grow in your Garden</a></p>
-                <div>
-                    <a href="single-blog"><img src="./images/blog4.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-105"></a>
+                <div class="overflow-hidden">
+                    <a href="single-blog"><img src="./images/blog4.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-150"></a>
                 </div>
                 <div class="flex justify-between my-4">
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-user-fill text-green-600 pr-2"></i>Admin</a>
@@ -92,11 +94,11 @@
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-chat-1-line text-green-600 pr-2"></i>9 Comment</a>
                 </div>
             </div>
-            <div class="w-[420px] p-7 bg-white">
+            <div class="w-[380px] p-5 bg-white">
                 <h2 class="text-2xl text-gray-500 font-bold">21st October</h2>
                 <p class="text-2xl font-bold my-3"><a href="blog1">The 12 Fastest Vegetables to Grow in your Garden</a></p>
-                <div>
-                    <a href="single-blog"><img src="./images/blog5.jpg" alt="" class="h-[250px] w-[440px] rounded hover:scale-105"></a>
+                <div class="overflow-hidden">
+                    <a href="single-blog"><img src="./images/blog5.jpg" alt="" class="h-[250px] w-[440px] rounded hover:scale-150"></a>
                 </div>
                 <div class="flex justify-between my-4">
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-user-fill text-green-600 pr-2"></i>Admin</a>
@@ -104,11 +106,11 @@
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-chat-1-line text-green-600 pr-2"></i>9 Comment</a>
                 </div>
             </div>
-            <div class="w-[420px] p-7 bg-white">
+            <div class="w-[380px] p-5 bg-white">
                 <h2 class="text-2xl text-gray-500 font-bold">21st October</h2>
                 <p class="text-2xl font-bold my-3"><a href="blog1">The 12 Fastest Vegetables to Grow in your Garden</a></p>
-                <div>
-                    <a href="single-blog"><img src="./images/blog-6.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-105"></a>
+                <div class="overflow-hidden">
+                    <a href="single-blog"><img src="./images/blog-6.avif" alt="" class="h-[250px] w-[440px] rounded hover:scale-150"></a>
                 </div>
                 <div class="flex justify-between my-4">
                     <a href="blog" class="text-gray-500 text-xl"><i class="ri-user-fill text-green-600 pr-2"></i>Admin</a>
@@ -117,12 +119,12 @@
                 </div>
             </div>
         </div>
-        <div class="flex md:gap-5">
-            <button class="border-2 border-gray-400 hover:border-green-500 h-[60px] w-[60px] text-center p-5 rounded-full">1</button>
-            <button class="border-2 border-gray-400 hover:border-green-500 h-[60px] w-[60px] text-center p-5 rounded-full">2</button>
-            <button class="border-2 border-gray-400 hover:border-green-500 h-[60px] w-[60px] text-center p-5 rounded-full">3</button>
-            <button class="border-2 border-gray-400 hover:border-green-500 h-[60px] w-[60px] text-center p-5 rounded-full">4</button>
-            <button class="border-2 border-gray-400 hover:border-green-500 h-[60px] w-[60px] text-center p-5 rounded-full">...</button>
+        <div class="flex gap-5">
+            <button class="border-2 border-gray-400 hover:border-green-500 h-[59px] w-[60px] text-center p-3 rounded-full">1</button>
+            <button class="border-2 border-gray-400 hover:border-green-500 h-[59px] w-[60px] text-center p-3 rounded-full">2</button>
+            <button class="border-2 border-gray-400 hover:border-green-500 h-[59px] w-[60px] text-center p-3 rounded-full">3</button>
+            <button class="border-2 border-gray-400 hover:border-green-500 h-[59px] w-[60px] text-center p-3 rounded-full">4</button>
+            <!-- <button class="border-2 border-gray-400 hover:border-green-500 h-[59px] w-[60px] text-center p-3 rounded-full">...</button> -->
             <button class="border-2 border-green-500 w-[120px] rounded-full">Next</button>
         </div>
     </section>
@@ -147,7 +149,7 @@
                 </div>
                 <div class="my-4 ">
                     <a href="# " class="flex ">
-                        <img src="./images/images (1) (7).jpeg " alt=" " class="w-[50px] h-[40px] rounded ">
+                        <img src="./images/download (7).jpeg" alt=" " class="w-[50px] h-[40px] rounded ">
                         <div class="text-gray-400 mx-3 ">
                             <h1 class="hover:text-white hover:scale-95 duration-300 ">Vegitable and orgenic fruit</h1>
                             <p class="hover:text-white ">Oct 15, 2023</p>
@@ -156,7 +158,7 @@
                 </div>
                 <div class="my-4 ">
                     <a href="# " class="flex ">
-                        <img src="./images/images (1) (7).jpeg " alt=" " class="w-[50px] h-[40px] rounded ">
+                        <img src="./images/download (16).jpeg" alt=" " class="w-[50px] h-[40px] rounded ">
                         <div class="text-gray-400 mx-3 ">
                             <h1 class="hover:text-white hover:scale-95 duration-300 ">Vegitable and orgenic fruit</h1>
                             <p class="hover:text-white ">Oct 15, 2023</p>
