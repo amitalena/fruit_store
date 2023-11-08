@@ -42,7 +42,7 @@
             height: 10px;
             width: 10px;
             border: 1px solid #fff;
-            margin-top: 10px;
+            margin-top: 25px;
         }
         
         .swiper-pagination-clickable .swiper-pagination-bullet-active {
@@ -56,31 +56,33 @@
 
 <body>
     <!--header section starts-->
-    <header class="header w-full flex justify-between md:px-[190px] bg-white shadow-xl fixed p-4">
-        <a href="#home.html" class="logo text-green-400 font-bold text-4xl"><i class="text-3xl font-bold text-green-600 ri-apple-fill"></i>Fruit.Hub</a>
+    <header class="header w-full flex justify-between md:px-[186px] bg-white shadow-xl fixed p-4">
+        <a href="/" class="logo text-green-600 font-bold text-4xl"><i class="text-3xl font-bold text-red-600 ri-apple-fill"></i>Fresh Zilla</a>
         <div class="menu md:flex">
-            <ul class="navbar md:flex md:ml-[150px] gap-5 text-center text-green-500 mt-2">
+            <ul class="navbar md:flex md:ml-[150px] gap-5 text-center text-green-600 mt-2">
                 <li class="hover:text-red-600 hover:scale-105 duration-300 active"><a href="index.html">home</a></li>
                 <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="about.html">about</a></li>
                 <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="services.html">services</a></li>
                 <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="blog.html">blogs</a></li>
-                <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="gallery.html">gallery</a></li>
+                <!-- <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="gallery.html">gallery</a></li> -->
                 <li class="hover:text-red-600 hover:scale-105 duration-300"><a href="contact.html">contact</a></li>
             </ul>
             <div class="user">
                 <div class="user1 flex justify-between">
                     <form action="" class="search-form pl-3 pr-3 flex bg-white rounded shadow">
-                        <input type="search" placeholder="search here..." id="search-box" class=" pr-3 bg-none outline-none w-[300px] p-2">
+                        <input type="search" placeholder="search here..." id="search-box" class=" pr-3 bg-none outline-none w-[250px] p-2">
                         <button class="search" onclick="ok();"><i class="ri-search-line text-black text-xl"></i></button>
                     </form>
-                    <a href="user.html"><i class="ri-user-line bg-none text-green-400 text-2xl mx-2"></i></a></div>
+                    <a href="login.html" class="bg-green-600 mx-1 text-white text-center p-2 rounded">User</a>
+                    <a href="shoping-cart.html" class="bg-red-600 mx-1 text-white text-center p-2 rounded">Card</a>
+                </div>
             </div>
         </div>
         <div class="main md:hidden">
             <i class="ri-menu-line font-bold text-3xl"></i>
         </div>
     </header>
-    <div class="fixed h-[50px] mt-[740px] shadow-2xl animate-bounce w-[50px] ml-[95%]">
+    <div class="fixed h-[50px] mt-[690px] shadow-2xl animate-bounce w-[50px] ml-[93%]">
         <a href="./index.html"><i class="ri-arrow-up-s-line text-3xl font-bold text-white  bg-green-800 text-center rounded-full p-3"></i></a>
     </div>
     <!-- section start -->
@@ -97,9 +99,10 @@
                         <h1 class="md:w-[800px] md:text-6xl my-5 font-bold text-white">Fresh and organic <span class="text-red-600 bg-white px-4 p-1">fruits</span></h1>
                         <p class="md:w-[600px] text-gray-300 md:text-xl">Once aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur consectetur adipiscing elit eu fugiat nulla laudantium sunt in culpa qui.
                         </p>
-                        <div class="md:py-[30px]">
-                            <button class="hover:text-black bg-green-700 text-white rounded pl-4 text-xl p-3 w-[150px] pr-4">Read More</button>
-                            <button class="hover:bg-white hover:text-black bg-none border text-white rounded pl-4 text-xl p-3 w-[150px] pr-4">Shop Now</button>
+                        <div class="py-[30px]">
+                            <a href="./about.html" class="hover:text-black bg-green-700 text-white rounded pl-4 text-xl p-4 w-[150px] pr-4">Read More
+                                </a>
+                            <a href="./shop.html" class="hover:bg-white mx-2 hover:text-black bg-none border text-white rounded pl-4 text-xl p-[15px] w-[150px] pr-4">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -108,40 +111,43 @@
                         <h4 class="text-2xl text-white">
                             <i class="ri-apple-fill"></i>100% NATURAL
                         </h4>
-                        <h1 class="md:w-[800px] md:text-6xl my-5 font-bold text-white"> 100% NATURAL Huge variety of fresh vegetables</h1>
+                        <h1 class="md:w-[800px] md:text-6xl my-5 font-bold text-white">Huge variety of fresh vegetables</h1>
                         <p class="md:w-[600px] text-gray-300 md:text-xl">Once aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur consectetur adipiscing elit eu fugiat nulla laudantium sunt in culpa qui.
                         </p>
-                        <div class="md:py-[30px]">
-                            <button class="hover:text-black bg-green-700 text-white rounded pl-4 text-xl p-3 w-[150px] pr-4">Read More</button>
-                            <button class="hover:bg-white hover:text-black bg-none border text-white rounded pl-4 text-xl p-3 w-[150px] pr-4">Shop Now</button>
+                        <div class="py-[30px]">
+                            <a href="./about.html" class="hover:text-black bg-green-700 text-white rounded pl-4 text-xl p-4 w-[150px] pr-4">Read More
+                                </a>
+                            <a href="./shop.html" class="hover:bg-white mx-2 hover:text-black bg-none border text-white rounded pl-4 text-xl p-[15px] w-[150px] pr-4">Shop Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide" id="section3">
-                    <div class="md:pl-[190px] md:pt-[150px] bg-black h-full opacity-80 px-4 py-[20px]">
+                    <div class="md:pl-[190px] md:pt-[150px] bg-black h-full opacity-80 px-4 py-[30px]">
                         <h4 class="text-2xl text-white">
                             <i class="ri-apple-fill"></i>100% NATURAL
                         </h4>
                         <h1 class="md:w-[800px] md:text-6xl my-5 font-bold text-white">A Huge variety of the freshest fruits</h1>
                         <p class="md:w-[600px] text-gray-100 md:text-xl">Once aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur consectetur adipiscing elit eu fugiat nulla laudantium sunt in culpa qui.
                         </p>
-                        <div class="md:py-[30px]">
-                            <button class="hover:text-black bg-green-700 text-white rounded pl-4 text-xl p-3 w-[150px] pr-4">Read More</button>
-                            <button class="hover:bg-white hover:text-black bg-none border text-white rounded pl-4 text-xl p-3 w-[150px] pr-4">Shop Now</button>
+                        <div class="py-[30px]">
+                            <a href="./about.html" class="hover:text-black bg-green-700 text-white rounded pl-4 text-xl p-4 w-[150px] pr-4">Read More
+                                </a>
+                            <a href="./shop.html" class="hover:bg-white mx-2 hover:text-black bg-none border text-white rounded pl-4 text-xl p-[15px] w-[150px] pr-4">Shop Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide" id="section4">
-                    <div class="md:pl-[190px] md:pt-[150px] bg-black h-full opacity-80 px-4 py-[20px]">
+                    <div class="md:pl-[190px] md:pt-[150px] bg-black h-full opacity-80 px-4 py-[30px]">
                         <h4 class="text-2xl text-white">
                             <i class="ri-apple-fill"></i>100% NATURAL
                         </h4>
                         <h1 class="md:w-[800px] md:text-6xl my-5 font-bold text-white">Oranic products grown with love</h1>
                         <p class="md:w-[600px] text-gray-300 md:text-xl">Once aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur consectetur adipiscing elit eu fugiat nulla laudantium sunt in culpa qui.
                         </p>
-                        <div class="md:py-[30px]">
-                            <button class="hover:text-black bg-green-700 text-white rounded pl-4 text-xl p-3 w-[150px] pr-4">Read More</button>
-                            <button class="hover:bg-white hover:text-black bg-none border text-white rounded pl-4 text-xl p-3 w-[150px] pr-4">Shop Now</button>
+                        <div class="py-[30px]">
+                            <a href="./about.html" class="hover:text-black bg-green-700 text-white rounded pl-4 text-xl p-4 w-[150px] pr-4">Read More
+                                </a>
+                            <a href="./shop.html" class="hover:bg-white mx-2 hover:text-black bg-none border text-white rounded pl-4 text-xl p-[15px] w-[150px] pr-4">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -200,36 +206,36 @@
             </div>
         </div>
     </section>
-    <section class="section3 h-screen flex justify-center">
-        <div class="py-[150px] bg-black opacity-80 px-[50px]">
+    <section class="section3">
+        <div class="md:py-[202px] bg-black opacity-80 p-3 md:px-[50px]">
             <h1 class="text-white text-center text-5xl font-bold">We Grow & Sell Organic Fruits</h1>
             <div class="md:my-5 flex justify-center">
                 <button class="hover:text-black bg-green-700 text-white rounded pl-4 text-xl my-5 p-4 w-[150px] pr-4">Read More</button>
             </div>
-            <div class="grid md:grid-cols-3 gap-10 md:px-[160px] relative md:my-[150px]">
-                <div class="md:w-[400px] shadow-2xl z-50 rounded h-[300px] border-3 border-red-500 bg-white juise1" id="juice1">
-                    <img src="./images/240_F_strawberyXnILQ.jpg" alt="" class="object-cover w-full h-full rounded">
-                    <a href="#">
-                        <h1 class="t1 text-center text-white hover:shadow-2xl font-bold text-3xl hidden">Fresh, tasty Strawberry</h1>
-                    </a>
-                </div>
-                <div class="md:w-[400px] shadow-2xl z-50 rounded h-[300px] border-3 border-red-500 bg-white juise1" id="juice2">
-                    <img src="./images/240_juice.jpg" alt="" class="object-cover w-full h-full rounded">
-                    <a href="#">
-                        <h1 class="t1 text-center text-blac hover:shadow-2xl font-bold text-3xl hidden">The orange juice test</h1>
-                    </a>
-                </div>
-                <div class="md:w-[400px] shadow-2xl z-50 rounded h-[300px] border-3 border-red-500 bg-white juise1" id="juice3">
-                    <img src="./images/240_F_grrp.jpg" alt="" class="object-cover w-full h-full rounded">
-                    <a href="#">
-                        <h1 class="t1 text-center text-black hover:shadow-2xl font-bold text-3xl hidden">Green & Black Grapes</h1>
-                    </a>
-                </div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-10 md:px-[190px]  md:my-[-190px]">
+            <div class="md:w-[370px] shadow-2xl z-50 rounded h-[300px] border-3 border-red-500 bg-white juise1" id="juice1">
+                <img src="./images/240_F_strawberyXnILQ.jpg" alt="" class="object-cover w-full h-full rounded">
+                <a href="#">
+                    <h1 class="t1 text-center text-black font-bold text-3xl hidden">Fresh, tasty Strawberry</h1>
+                </a>
+            </div>
+            <div class="md:w-[370px] shadow-2xl z-50 rounded h-[300px] border-3 border-red-500 bg-white juise1" id="juice2">
+                <img src="./images/240_juice.jpg" alt="" class="object-cover w-full h-full rounded">
+                <a href="#">
+                    <h1 class="t2 text-center text-black font-bold text-3xl hidden">The orange juice test</h1>
+                </a>
+            </div>
+            <div class="md:w-[370px] shadow-2xl z-50 rounded h-[300px] border-3 border-red-500 bg-white juise1" id="juice3">
+                <img src="./images/240_F_grrp.jpg" alt="" class="object-cover w-full h-full rounded">
+                <a href="#">
+                    <h1 class="t3 text-center text-black font-bold text-3xl hidden">Green & Black Grapes</h1>
+                </a>
             </div>
         </div>
     </section>
-    <section class="section6 md:px-[160px] p-3">
-        <div class="md:flex md:justify-between mt-[100px]" id="big">
+    <section class="section6 md:px-[184px] p-3">
+        <div class="md:flex md:justify-between mt-[130px]" id="big">
             <div class="my-[10px] md:w-[550px]">
                 <h1 class="text-5xl font-bold">Big Sale up to 30% off on all products</h1>
                 <p class="my-5">Praesent congue iaculis pulvinar. Praesent sit amet consequat sem, nec scelerisque nisl.</p>
@@ -261,13 +267,13 @@
         </div>
     </section>
     <section class="section7">
-        <div class="bg-black py-[71px] opacity-80">
-            <div class="text-center my-5">
+        <div class="bg-black py-[51px] opacity-80">
+            <div class="text-center my-5 px-2">
                 <h1 class="text-4xl text-white font-bold">Subscribe Newsletter</h1>
                 <p class="md:px-[400px] text-white py-10">In non nisi quis metus tempor efficitur a ut odio. Phasellus posuere tellus in interdum venenatis. Curabitur aliquam quam dictum est vestibulum aliquet..</p>
             </div>
             <div class="user flex md:justify-between">
-                <form action="" class="search-form md:ml-[500px] px-[50px] flex rounded shadow">
+                <form action="" class="search-form md:ml-[460px] mx-6 flex rounded shadow">
                     <input type="email" placeholder="Enter your email address.." id="search-box" class="pr-3 bg-none rounded shadow-2xl outline-none md:w-[500px] p-3">
                     <button class="search bg-green-700 mx-1 rounded p-3 text-white" onclick=" ok();">Subscribe</button>
                 </form>
@@ -283,41 +289,53 @@
     </section>
     <!-- testimonial -->
     <section class="section5 my-10">
-        <div class="bg-black opacity-70 h-full w-full">
+        <div class="bg-black opacity-90 h-full w-full">
             <div class="swiper md:ml-[150px] md:py-[50px] md:w-[660px]">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper p-4">
+                <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide">
-                        <div class="md:mx-[110px] md:my-10 w-[400px]">
+                        <div class="md:mx-[110px] p-4 mt-5 w-[400px]">
                             <i class="ri-double-quotes-l shadow text-5xl font-bold text-green-600"></i>
-                            <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-                            <i class="ri-double-quotes-r shadow text-5xl ml-[90%] font-bold text-green-600"></i>
-                            <h1 class="text-white">Amit kumar</h1>
+                            <p class="text-gray-300 break-all">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                            <i class="ri-double-quotes-r shadow text-5xl ml-[80%] font-bold text-green-600"></i>
+                            <span class="flex justify-center mt-[-10px]">
+                                <img src="./images/240_F_grrp.jpg" alt="" class="rounded-full h-[50px] w-[50px]">
+                                <h1 class="text-center text-green-200 font-bold text-2xl p-2">Amit kumar</h1>
+                            </span>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="md:mx-[110px] my-10 w-[400px]">
+                        <div class="md:mx-[110px] p-4 mt-5 w-[400px]">
                             <i class="ri-double-quotes-l shadow text-5xl font-bold text-green-600"></i>
-                            <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-                            <i class="ri-double-quotes-r shadow text-5xl ml-[90%] font-bold text-green-600"></i>
-                            <h1 class="text-white">Alena XP</h1>
+                            <p class="text-gray-300 break-all">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                            <i class="ri-double-quotes-r shadow text-5xl ml-[80%] font-bold text-green-600"></i>
+                            <span class="flex justify-center mt-[-10px]">
+                                <img src="./images/240_F_grrp.jpg" alt="" class="rounded-full h-[50px] w-[50px]">
+                                <h1 class="text-center text-green-200 font-bold text-2xl p-2">Alena XP</h1>
+                            </span>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="md:mx-[110px] my-10 w-[400px]">
+                        <div class="md:mx-[110px] p-4 mt-5 w-[400px]">
                             <i class="ri-double-quotes-l shadow text-5xl font-bold text-green-600"></i>
-                            <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-                            <i class="ri-double-quotes-r shadow text-5xl ml-[90%] font-bold text-green-600"></i>
-                            <h1 class="text-white">Abhi Joel</h1>
+                            <p class="text-gray-300 break-all">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                            <i class="ri-double-quotes-r shadow text-5xl ml-[80%] font-bold text-green-600"></i>
+                            <span class="flex justify-center mt-[-10px]">
+                                <img src="./images/240_F_grrp.jpg" alt="" class="rounded-full h-[50px] w-[50px]">
+                                <h1 class="text-center text-green-200 font-bold text-2xl p-2">Abhi Joel</h1>
+                            </span>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="md:mx-[110px] my-10 w-[400px]">
+                        <div class="md:mx-[110px] p-4 mt-5 w-[400px]">
                             <i class="ri-double-quotes-l shadow text-5xl font-bold text-green-600"></i>
-                            <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-                            <i class="ri-double-quotes-r shadow text-5xl ml-[90%] font-bold text-green-600"></i>
-                            <h1 class="text-white">Suraj Soul</h1>
+                            <p class="text-gray-300 break-all">Lorem ipsum dolor sit amet consectetur adipisicing elit sedc dnmo eiusmod. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                            <i class="ri-double-quotes-r shadow text-5xl ml-[80%] font-bold text-green-600"></i>
+                            <span class="flex justify-center mt-[-10px]">
+                                <img src="./images/240_F_grrp.jpg" alt="" class="rounded-full h-[50px] w-[50px]">
+                                <h1 class="text-center text-green-200 font-bold text-2xl p-2">Suraj Soul</h1>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -355,7 +373,7 @@
                 </div>
                 <div class="my-4 ">
                     <a href="# " class="flex ">
-                        <img src="./images/images (1) (7).jpeg " alt=" " class="w-[50px] h-[40px] rounded ">
+                        <img src="./images/download (7).jpeg" alt=" " class="w-[50px] h-[40px] rounded ">
                         <div class="text-gray-400 mx-3 ">
                             <h1 class="hover:text-white hover:scale-95 duration-300 ">Vegitable and orgenic fruit</h1>
                             <p class="hover:text-white ">Oct 15, 2023</p>
@@ -364,7 +382,7 @@
                 </div>
                 <div class="my-4 ">
                     <a href="# " class="flex ">
-                        <img src="./images/images (1) (7).jpeg " alt=" " class="w-[50px] h-[40px] rounded ">
+                        <img src="./images/download (16).jpeg" alt=" " class="w-[50px] h-[40px] rounded ">
                         <div class="text-gray-400 mx-3 ">
                             <h1 class="hover:text-white hover:scale-95 duration-300 ">Vegitable and orgenic fruit</h1>
                             <p class="hover:text-white ">Oct 15, 2023</p>
