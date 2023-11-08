@@ -314,6 +314,7 @@ body::-webkit-scrollbar-thumb {
     }
     .menu {
         display: none;
+        height:70vh;
         width: 99%;
         /* text-align: center; */
         transition: all .5s;
